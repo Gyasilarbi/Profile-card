@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card{
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-info img{
+            width: 200px;
+            height: 200px;
+            border: 5px solid #fff;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-info h2{
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .profile-info p{
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .social-links{
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-links a{
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            transition: center;
+        }
+
+        .social-links a:hover{
+            color: #0077b5;
+        }
+    </style>  
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-info">
+            <img src="IMG_2420.JPG" alt="Profile Picture">
+            <h2>Gyasi Larbi</h2>
+            <p>Web Developer</p>
+        </div>
+
+        <div class="social-links">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+</body>
+</html>
